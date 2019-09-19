@@ -21,7 +21,12 @@
 // mod structs_rbe;
 // mod enums_use;
 // mod enums_clike;
-mod linked_list;
+// mod linked_list;
+// mod from_trait;
+// mod to_string_trait;
+// mod from_str_trait;
+// mod nesting_and_loops;
+mod returning_from_loop;
 
 fn main() {
     // print::run();
@@ -47,5 +52,10 @@ fn main() {
     // structs_rbe::run();
     // enums_use::run();
     // enums_clike::run();
-    linked_list::run();
+    // linked_list::run();
+    // from_trait::run();
+    // to_string_trait::run();
+    // from_str_trait::run();
+    // nesting_and_loops::run();
+    returning_from_loop::run();
 }
