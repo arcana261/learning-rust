@@ -26,7 +26,10 @@
 // mod to_string_trait;
 // mod from_str_trait;
 // mod nesting_and_loops;
-mod returning_from_loop;
+// mod returning_from_loop;
+// mod for_and_iterators;
+// mod match_pointers_ref_destruct;
+mod match_binding;
 
 fn main() {
     // print::run();
@@ -57,5 +60,8 @@ fn main() {
     // to_string_trait::run();
     // from_str_trait::run();
     // nesting_and_loops::run();
-    returning_from_loop::run();
+    // returning_from_loop::run();
+    // for_and_iterators::run();
+    // match_pointers_ref_destruct::run();
+    match_binding::run();
 }
