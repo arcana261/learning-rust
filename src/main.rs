@@ -29,7 +29,8 @@
 // mod returning_from_loop;
 // mod for_and_iterators;
 // mod match_pointers_ref_destruct;
-mod match_binding;
+// mod match_binding;
+mod closure_as_output;
 
 fn main() {
     // print::run();
@@ -63,5 +64,6 @@ fn main() {
     // returning_from_loop::run();
     // for_and_iterators::run();
     // match_pointers_ref_destruct::run();
-    match_binding::run();
+    // match_binding::run();
+    closure_as_output::run();
 }
